@@ -6,3 +6,10 @@ spring:
       classpath: /templates/
     suffix: .html
     cache: false # 开发时关闭缓存,不然没法看到实时页面
+
+github:
+  client:
+    id: f54ac00d923aecf7eb34
+    secret: ca752378e745f7c4f6422b1d431536971ea7fb91
+  redirect:
+    uri: http://localhost:8887/callback
