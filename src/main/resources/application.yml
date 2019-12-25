@@ -6,6 +6,11 @@ spring:
       classpath: /templates/
     suffix: .html
     cache: false # 开发时关闭缓存,不然没法看到实时页面
+  datasource:
+    url: jdbc:h2:~/community
+    username: sa
+    password: 123
+    driver-class-name: org.h2.Driver
 
 github:
   client:
