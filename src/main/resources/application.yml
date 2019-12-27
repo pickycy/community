@@ -18,3 +18,8 @@ github:
     secret: ca752378e745f7c4f6422b1d431536971ea7fb91
   redirect:
     uri: http://localhost:8887/callback
+
+#mybatis配置
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
