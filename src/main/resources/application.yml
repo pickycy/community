@@ -11,6 +11,9 @@ spring:
     username: sa
     password: 123
     driver-class-name: org.h2.Driver
+  devtools:
+    restart:
+      exclude: static/**,public/**
 
 github:
   client:
